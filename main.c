@@ -33,7 +33,7 @@ int main(void)
 		if(strncmp(password,input,pwLen)==0){
 			PORTB=1<<0;
 			lcdClear();
-			lcdString(" kosom el7ayah");
+			lcdString(" opened");
 		}
 		else{
 			trials++;
